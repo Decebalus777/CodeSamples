@@ -37,4 +37,18 @@ due to its more technical nature.
 
 
 
-The third sample is a method from another 
+The third sample is two methods from another academic project. This one was a gramatically correct sentence generator that generates sentences as 
+quickly as possible. Due to the requirement for speed in this project, my partner and I decided on a few design rules to meet this requirement:
+
+1. We decided to use hash maps to store the necessary data, as we discovered that this approach would be the most efficient
+data structure for our needs, something made even more critical by the requirements laid out.
+2. For the same concerns, we also decided to use Java's StringBuilder class to build our generated sentences, which does concatenation
+much faster than manual operator-driven string concatenation or using the default .concat() method provided by Java.
+
+Using these decisions and some cleaning up of basic code errors and time-wasting design, we were able to get our solution into the top 15% of the class.
+I learned a lot about how to design code to run efficiently from this project, and I think it definitely has helped me become a better software engineer,
+both in terms of becoming much better at designing and implementing efficient and bug-free code, and also in terms of thinking more consciously about the goals
+of the code that I write, and taking the time to design code that can accomplish those goals.
+
+Thanks for reading!
+
